@@ -1,0 +1,48 @@
+body {
+    font-family: poppins, sans-serif;
+    background: skyblue;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.container {
+    background-color: gray;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#addBtn {
+    padding: 12px 20px;
+    margin-left: 10px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+.deleteBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
