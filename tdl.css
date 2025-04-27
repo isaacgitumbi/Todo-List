@@ -24,7 +24,7 @@ body {
 #taskInput {
     width: 70%;
     padding: 12px;
-    border: 1px solid #cccccc;
+    border: 1px solid navy;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -40,11 +40,24 @@ body {
     border-radius: 10px;
 
 }
-.deleteBtn{
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 0px;
-}
+
+ul {
+    list-style: none; 
+    padding: 0;
+  }
+  
+  
+  li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  
+  
+  
