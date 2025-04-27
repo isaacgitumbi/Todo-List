@@ -28,7 +28,9 @@ body {
     border-radius: 5px;
     font-size: 16px;
 }
-
+.taskList{
+    margin-left: 50px;
+}
 #addBtn {
     padding: 12px 20px;
     margin-left: 10px;
@@ -44,5 +46,5 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: auto;
+    margin-right: 0px;
 }
